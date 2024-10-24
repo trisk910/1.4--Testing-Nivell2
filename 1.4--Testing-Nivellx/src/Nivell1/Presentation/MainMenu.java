@@ -1,19 +1,17 @@
 package Nivell1.Presentation;
 
-import Nivell1.Persistance.ExceptionMenuCatch;
-
 import java.util.Scanner;
 
 public class MainMenu {
 
-    public int showMainMenu() throws ExceptionMenuCatch {
+    public int showMainMenu() {
         Scanner scanner = new Scanner(System.in);
         int menuOption = 0;
         boolean validInput = false;
 
         while (!validInput) {
-            System.out.println("1.- Introduir Llibre.");
-            System.out.println("2.- Mostrar llista de llibres.");
+            System.out.println("1.- Crear Col·lecció.");
+            System.out.println("2.- Mostrar Col·leccions.");
             System.out.println("3.- Mostrar llibre per index.");
             System.out.println("4.- Afegir llibre per index.");
             System.out.println("5.- Eliminar llibre per titol.");

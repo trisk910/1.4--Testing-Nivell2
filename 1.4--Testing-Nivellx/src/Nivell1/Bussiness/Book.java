@@ -10,13 +10,18 @@ public class Book {
         this.title = title;
     }
 
+    public String getTitle() {
+        return title;
+    }
+
     @Override
     public boolean equals(Object obj) {
         if (this == obj) return true;
         if (!(obj instanceof Book)) return false;
         Book that = (Book) obj;
-        return title == that.title;
+        return Objects.equals(title, that.title);
     }
+
     @Override
     public int hashCode() {
         return Objects.hash(title);
