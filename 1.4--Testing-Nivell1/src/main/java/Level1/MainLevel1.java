@@ -1,7 +1,10 @@
 package Level1;
 
 import Level1.Bussiness.Book;
+import Level1.Bussiness.DNICalculator;
 import Level1.Bussiness.Library;
+
+import java.util.Scanner;
 
 public class MainLevel1 {
     public static void main(String[] args) {
@@ -52,7 +55,18 @@ public class MainLevel1 {
         col1.showBooks();
 
 
-        System.out.println("----------Exercici2---------");
+        System.out.println("\n----------Exercici2---------");
+
+        DNICalculator dniCalculator = new DNICalculator();
+        System.out.print("Introdueix numeros del DNI: ");
+        Scanner scanner = new Scanner(System.in);
+        try {
+            int dniNumber = scanner.nextInt();
+            System.out.println("La lletra del DNI és: " + dniCalculator.calculateLetter(dniNumber));
+        } catch (Exception e) {
+            System.out.println("Error: " + e.getMessage());
+        }
+
 
     }
 }
