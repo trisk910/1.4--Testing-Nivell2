@@ -1,4 +1,4 @@
-package Nivell1.Bussiness;
+package Level1.Bussiness;
 
 import java.util.Objects;
 
