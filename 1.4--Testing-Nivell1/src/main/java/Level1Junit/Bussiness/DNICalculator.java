@@ -1,4 +1,4 @@
-package Level1.Bussiness;
+package Level1Junit.Bussiness;
 
 public class DNICalculator {
     private static final String LETTERS = "TRWAGMYFPDXBNJZSQVHLCKE";

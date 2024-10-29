@@ -1,8 +1,8 @@
-package Level1;
+package Level1Junit;
 
-import Level1.Bussiness.Book;
-import Level1.Bussiness.DNICalculator;
-import Level1.Bussiness.Library;
+import Level1Junit.Bussiness.Book;
+import Level1Junit.Bussiness.DNICalculator;
+import Level1Junit.Bussiness.Library;
 
 import java.util.Scanner;
 

@@ -1,4 +1,4 @@
-package Level1.Bussiness;
+package Level1Junit.Bussiness;
 
 import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.DisplayName;

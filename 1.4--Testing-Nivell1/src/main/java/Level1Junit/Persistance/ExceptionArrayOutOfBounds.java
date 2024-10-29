@@ -1,4 +1,4 @@
-package Level1.Persistance;
+package Level1Junit.Persistance;
 
 public class ExceptionArrayOutOfBounds {
     public void throwArrayIndexOutOfBoundsException() {

@@ -1,6 +1,6 @@
-package Level1.Bussiness;
+package Level1Junit.Bussiness;
 
-import Level1.Persistance.ExceptionArrayOutOfBounds;
+import Level1Junit.Persistance.ExceptionArrayOutOfBounds;
 import org.junit.jupiter.api.Test;
 import static org.junit.jupiter.api.Assertions.assertThrows;
 
