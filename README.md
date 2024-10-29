@@ -30,6 +30,10 @@ Verifiquen que la llista roman ordenada alfabèticament després d'afegir o elim
 Crea una classe anomenada CalculoDni que calculi la lletra del DNI en rebre el número com a paràmetre.
 Crea una classe jUnit que verifiqui el seu correcte funcionament, parametritzant-la perquè el test rebi un espectre de dades ampli i validi si el càlcul és correcte per a 10 números de DNI predefinits.
 
+- Exercici 3
+
+Crea una classe amb un mètode que llanci una ArrayIndexOutOfBoundsException.
+Verifica el seu correcte funcionament amb un test jUnit.
 
 Nivell 2: AssertJ
 
@@ -65,9 +69,3 @@ Provoca una ArrayIndexOutOfBoundsException en una classe qualsevol. Crea una ass
 - Exercici 7
   
 Crea un objecte Optional buit. Escriu l'asserció correcta per a verificar que efectivament està buit.
-
-
-- Exercici 3
-
-Crea una classe amb un mètode que llanci una ArrayIndexOutOfBoundsException.
-Verifica el seu correcte funcionament amb un test jUnit.
