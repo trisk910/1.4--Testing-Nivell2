@@ -1,6 +1,5 @@
-package Level2AssertJ;
+package Level2AssertJ.Ex6;
 
-import Level2AssertJ.Ex6.ExceptionArray;
 import org.junit.jupiter.api.Test;
 import static org.assertj.core.api.Assertions.assertThatThrownBy;
 
